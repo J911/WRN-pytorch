@@ -3,7 +3,7 @@ WideResNet: Wide Residual Network
 
 A pytorch implementation of WRN([Zagoruyko, Sergey, and Nikos Komodakis. "Wide residual networks." arXiv preprint arXiv:1605.07146 (2016).](https://arxiv.org/abs/1605.07146))
 
-## Support& Requirements
+## Support & Requirements
 - 🔥pytorch >= 0.4.0
 - 🐍python 3.6.5 
 - 📈tensorboardX 1.8
@@ -34,7 +34,7 @@ $ python train.py
 - --num_worker NUM_WORKER
 - --logdir LOGDIR
 
-## Result
+## Results
 ![result](assets/RESULT.png)
 - red: resnet num_block 5 | best test loss: 6.58
 - pink: num_widen_factor 2 num_block 5 | best test loss: 6.45
